@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>REPUESTOS ALBERT!</title>
+  </head>
+  <style>
+       a{
+          display: block;
+          width: 270px;
+          font-family: Arial, Arial, Helvetica, sans-serif,;
+          font-weight: 800;
+          border-radius: 20px;
+          margin: 20px 200px;
+          padding: 20px 20px;
+          background-color: rgb(63, 63, 236);
+          color: #000;
+          text-decoration: none;
+        }
+
+
+  </style>
+  <body>
+
+
+
+    <section id="cover">
+        <div id="cover-texto">
+            <div class="container">
+              <div class="row"><div>
+                  <div class="col-sm-12">
+                      <h1 class="display-3">REPUESTOS ALBERT </h1>
+                      <form action="" class="form-inline justify-content-center">
+
+                      </form>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card mb-3" style="max-width: 1500px;">
+              <h2>ELIGE TU TARGETA PARA REALIZAR EL PAGO</h2>
+                <div class="row no-gutters">
+                 <div class="col-md-4">
+                   <img src="/imagen/targetas.jpg" class="card-img" alt="...">
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body">
+
+
+                     <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">NOMBRE</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">apellido</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Email</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="MARHC@GMAIL,COM">
+                        </div>
+
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">CIUDAD</label>
+                            <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputState">PAIS</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">DEPARTAMENTO</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select>
+                          </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputCity">DIA</label>
+                              <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                              <label for="inputState">MES</label>
+                              <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                              <label for="inputZip">AÑO</label>
+                              <select id="inputState" class="form-control">
+                                  <option selected>Choose...</option>
+                                  <option>...</option>
+                                </select>
+                            </div>
+                          </div>
+
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">NUMERO DE TARJETA</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">CODIGO DE SEGURIDAD</label>
+                              <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                          </div>
+                          <a id="compra" href="/principal.html">FINALIZAR COMPRA</a>
+
+
+                        </form>
+                      </form>
+
+                   </div>
+                 </div>
+                </div>
+             </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      window.addEventListener("load", function() {
+        document.getElementById("compra").addEventListener("click",function(){
+          alert("su compra se realizo satisfatoriamente, su producto sera enviado a la direccion registrada en no mas de dos dias. cualquier inquietud comunicate con nosotros");
+        })
+
+       });
+    </script>
+
+  </body>
+</html>
